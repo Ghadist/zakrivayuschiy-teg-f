@@ -6,17 +6,16 @@
   --font-weight-card-title: 785;
   --font-weight-card-text: 400;
   --background-fade:
-    repeating-linear-gradient(to right, #d3d3d3, transparent 2px),
-    repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px),
-    repeating-linear-gradient(to bottom, #e7e7e7, #1a1a1a 2px);
+    repeating-linear-gradient(to right, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
+    linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
   --background-element-color: #fff;
-  --background-button-color: transparent;
+  --background-button-color: #fff;
   --color-accent: #000;
   --text-color-basic: #000;
   --color-heart-contour: #000;
   --color-animation-fill: #ff0000;
   --width: clamp(360px, 100%, 700px);
   --border: 2px solid #000;
-  --color-heart-contour: #000;
   --color-icon-active: #ff0000;
 }
