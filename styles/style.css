@@ -93,10 +93,9 @@
   mix-blend-mode: hard-light;
 }
 
-@supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
+@supports (-webkit-text-stroke: 1px #fff) {
   .card__image-watermark {
     -webkit-text-stroke: 1px #fff;
-    text-stroke: 1px #fff;
     text-shadow: none;
   }
 }
