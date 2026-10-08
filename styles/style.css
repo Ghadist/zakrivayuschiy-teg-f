@@ -144,7 +144,6 @@
 
 .card__icon-button:focus-visible {
   border-color: var(--color-accent);
-  transition: border-color ease 0.3s;
 }
 
 .button__text {
@@ -208,6 +207,8 @@
 .floppy {
   fill: white;
   mix-blend-mode: difference;
+  width: 28px;
+  height: 28px;
 }
 
 .dialog[open] {
@@ -230,6 +231,11 @@
   gap: 20px;
   min-height: 63px;
   line-height: 150%;
+}
+
+.dialog__content .floppy {
+  width: 39px;
+  height: 39px;
 }
 
 .dialog__text {
@@ -266,6 +272,13 @@
     width: 335px;
     height: 55px;
     flex-direction: row;
+  }
+
+  .floppy {
+    fill: white;
+    mix-blend-mode: difference;
+    width: 21px;
+    height: 21px;
   }
 
   .dialog {
@@ -335,7 +348,7 @@
 
 .like-icon.is-liked .sparks {
   transform-origin: center;
-  animation: sparking 0.3s 0.3s ease-in 1 forwards;
+  animation: sparking 0.3s 0.3s ease-in 1;
 }
 
 .brightness {
